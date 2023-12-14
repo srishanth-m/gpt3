@@ -1,0 +1,26 @@
+.gpt3__features-container__feature-title div {
+  width: 50px;
+  height: 3px;
+  background: rgb(104, 6, 243);
+  background: linear-gradient(
+    90deg,
+    rgba(104, 6, 243, 1) 0%,
+    rgba(255, 202, 67, 1) 74%,
+    rgba(241, 96, 0, 1) 100%
+  );
+}
+
+.gpt3__features-container__feature-title h1{
+    font-family: var(--font-family);
+    margin: .7rem 0;
+}
+
+.gpt3__features-container_feature-text p{
+    font-family: var(--font-family);
+    color: var(--color-text);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: .2px;
+    margin-top: 2rem;
+}

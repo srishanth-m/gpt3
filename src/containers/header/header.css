@@ -20,6 +20,7 @@
 
 .gradient__text {
   font-family: var(--font-family);
+  color: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
   font-weight: 800;
   font-size: 60px;
   line-height: 65px;
@@ -197,6 +198,7 @@
     margin-top: 3.8rem;
   }
   .gpt3__header-content__input input {
+    margin: 1rem;
     height: 25px;
   }
 
@@ -210,7 +212,7 @@
   }
 
   .gpt3__header-content__people {
-    margin-top: 3rem;
+    margin-top: 4rem;
     flex-direction: column;
     align-items: center;
   }

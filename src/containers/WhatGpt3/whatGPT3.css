@@ -1,0 +1,113 @@
+.gpt3_whatgpt3 {
+  display: flex;
+  flex-direction: column;
+
+  padding: 2rem;
+  background: var(--color-footer);
+
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#whatgpt3 {
+  color: white;
+  background: rgb(7, 22, 128);
+  background: linear-gradient(
+    90deg,
+    rgba(7, 22, 128, 1) 0%,
+    rgba(9, 9, 121, 1) 50%,
+    rgba(26, 77, 213, 1) 99%
+  );
+}
+
+.gpt3_whatgpt3-heading {
+  margin: 4rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading {
+  font-size: 35px;
+  width: 45%;
+  font-weight: 600;
+  font-family: var(--font-family);
+  margin: 10px 0;
+  text-transform: capitalize;
+}
+
+.gpt3_whatgpt3-heading p {
+  text-transform: uppercase;
+  font-family: var(--font-family);
+  letter-spacing: 0.5px;
+  line-height: 16px;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.gpt3_whatgpt3-container {
+  display: flex;
+  gap: 3.5rem;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width : 550px) {
+    .gpt3_whatgpt3-heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .heading{
+        width: 100%;
+        font-size: 27.5px;
+        font-weight: 500;
+    }
+
+    .gpt3_whatgpt3-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
