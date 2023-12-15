@@ -1,0 +1,71 @@
+/* .gpt3__card-container__card-title div {
+  width: 50px;
+  height: 3px;
+  background: rgb(104, 6, 243);
+  background: linear-gradient(
+    90deg,
+    rgba(104, 6, 243, 1) 0%,
+    rgba(255, 202, 67, 1) 74%,
+    rgba(241, 96, 0, 1) 100%
+  );
+} */
+
+.container {
+  gap: 4rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.headings{
+  display: flex ;
+  gap: 10px;
+  width: 30%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.headings div {
+  width: 50px;
+  height: 3px;
+  background: rgb(104, 6, 243);
+  background: linear-gradient(
+    90deg,
+    rgba(104, 6, 243, 1) 0%,
+    rgba(255, 202, 67, 1) 74%,
+    rgba(241, 96, 0, 1) 100%
+  );
+}
+
+.headings h6{
+  font-family: var(--font-family);
+  line-height: 28px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.text{
+  width: 55%;
+  line-height: 25px;
+  letter-spacing: .2px;
+  color: var(--color-text); 
+}
+
+@media screen and (max-width : 550px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.6rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .headings{
+    width: 80%;
+  }
+
+  .text{
+    width: 90%;
+  }
+}
