@@ -11,7 +11,8 @@
 }
 
 .gpt3__features-container__feature-title h1{
-    font-family: var(--font-family);
+  font-family: var(--font-family);
+    color: white;
     margin: .7rem 0;
 }
 
